@@ -248,6 +248,18 @@ font-weight: bolder;
   background-color: rgb(24, 24, 24);
   display: flex;
   flex-direction: column;
+  padding: 20px;
+}
+.courses-grid{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.courses h6{
+  font-size: 24px;
+  line-height: normal;
+  color: #F4F4F4;
+  padding-bottom: 25px;
 }
 .course-container{
   margin: 12.5px 0;
@@ -258,9 +270,79 @@ font-weight: bolder;
   overflow: hidden;
   transform: translateZ(0);
   margin: -1px;
-
+}
+.course-container svg{
+  width: 17px;
+  height: 16px;
+  margin: auto;
+  fill: #00AEEF
+  
+}
+.course-container h5{
+  font-size: 15px;
+  color: #F4F4F4;
+letter-spacing: 0em;
+padding: 15px;
+}
+.course-container p{
+  font-size: 14px;
+  color: #F4F4F4;
+letter-spacing: 0em;
+padding-left: 15px;
 }
 
+footer{
+  background-color: #1A1E1F;
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+}
+.footer-logo{
+  width: 104px;
+  height: 30px;
+  object-fit: cover;
+margin-left: 36px;
+margin-bottom: 36px;
+}
+.btn-social-parent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.social-logos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 15px;
+}
+.social-logos img{
+  width: 35px;
+  height: 35px;
+}
+.btn{
+  width: 109px;
+  height: 35px;
+  background-color: #00AEF3;
+  color: #ffff;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 6px;
+
+}
+.rights{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+  margin-left: 36px;
+  margin-top: 36px;
+}
+.rights p{
+  color: #F4F4F4;
+}
 
 
 
