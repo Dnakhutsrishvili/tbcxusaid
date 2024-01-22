@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: Noto_Sans_Georgian;
+  src: url(./fonts/Noto_Sans_Georgian/NotoSansGeorgian-VariableFont_wdth\,wght.ttf);
+}
+
 *, *::before,*::after {
   box-sizing: border-box;
 }
@@ -17,6 +22,7 @@ body {
   min-height: 100vh;
   line-height: 1;
   text-rendering: optimizeSpeed;
+  font: 16px Noto_Sans_Georgian, sans-serif;
 }
 
 img,
@@ -47,6 +53,8 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+
 
 .header{
     display: flex;
@@ -173,7 +181,7 @@ a {
   margin: 0;
   padding: 0;
   border: rgb(0, 0, 0);
-
+  z-index: 2;
 }
 .nav-conteiner ul{
 
@@ -193,6 +201,66 @@ a {
 
   color: #f4f4f4;
 }
+.banner{
+  display: inline-block;
+  width: 100%;
+}
+.banner img{
+  height: 217px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  float: right;
+  width: 100%;
+
+}
+.banner h3{
+position: absolute;
+color: rgb(244, 244, 244);
+letter-spacing: 0em;
+font-size: 24px;
+line-height: 1.6em;
+margin-top: 44px;
+margin-left: 22px;
+font-weight: bolder;
+}
+.article {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(43, 43, 43);
+  padding: 25px;
+  margin-top: -5px;
+}
+.article h1{
+  color: #F4F4F4;
+  letter-spacing: normal;
+  font-size: 16px;
+  line-height: 1.6em;
+  padding-bottom: 30px;
+}
+.article-link{
+  font-size: 16px;
+  color: #00AEF3;
+  cursor: pointer;
+}
+.courses{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  flex-direction: column;
+}
+.course-container{
+  margin: 12.5px 0;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid solid solid solid;
+  border-color: rgba(85, 85, 85, 1) rgba(85, 85, 85, 1) rgba(85, 85, 85, 1) rgba(85, 85, 85, 1);
+  border-radius: 6px 6px 6px 6px;
+  overflow: hidden;
+  transform: translateZ(0);
+  margin: -1px;
+
+}
+
 
 
 
