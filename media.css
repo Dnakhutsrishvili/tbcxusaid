@@ -1,0 +1,215 @@
+
+
+@media only screen and (min-width: 600px) {
+    .banner img{
+        height: 360px;
+    }
+    .banner h3{
+        font-size: 42px;
+    }
+    .article h1{
+        font-size: 36px;
+    }
+    .article-link{
+        font-size: 28px;
+    }
+    .courses{
+    padding: 40px;   
+    }
+    .courses h6{
+    font-size: 38px;
+    }
+    .courses p{
+    font-size: 28px;
+    }
+    .course-container{
+        padding-bottom: 20px;
+    }
+    .course-container h5{
+        font-size: 32px;
+    }
+    .course-container img{
+        width: 100%;
+    }
+    .course-svg{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .carousel-container{
+        height: 730px;
+    }
+    .carousel-container h3{
+        font-size: 36px;
+        margin-left: 36px;
+        padding-top: 36px;
+    }
+    .carousel-segment{
+        padding: 60px;
+    }
+    .question-container h2{
+        font-size: 38px;
+    }
+    .headers h3{
+        font-size: 32px;
+    }
+    .svg-cont svg{
+        width: 52px;
+        height: 52px;
+    }
+    .body-text{
+        font-size: 24px;
+    }
+    .all-questions{
+        font-size: 24px;
+    }
+    .btn-social-parent{
+        justify-content: space-between;
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+    .footer-logo{
+       width: 30%;
+       height: 100%;
+       margin-left: 56px;
+       margin-bottom: 56px;
+    }
+    .btn{
+        width: 189px;
+        height: 55px;
+        font-size: 22px;
+    }
+    .social-logos a img{
+    width: 65px;
+    height: 65px;
+    }
+    .rights p {
+        font-size: 18px;
+        margin-left: 36px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+.nav-button{
+    display: none;
+}
+.responsive-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.responsive-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #f4f4f4;
+}
+.banner img{
+    content:url("https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1202,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg");
+}
+
+.article h1{
+    font-size: 28px;
+}
+.courses-grid{
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3,300px);  /* 3 columns */
+    grid-template-rows: repeat(3,414px); /* 3 rows  */
+    grid-gap:50px 30px; 
+}
+
+.courses h6{
+    font-size: 24px;
+    }
+.courses p{
+    font-size: 18px;
+    margin-top: 10px;
+    }
+.course-container{
+        padding-bottom: 10px;
+    }
+.course-container h5{
+    margin-top: 20px;
+    font-size: 16px;
+    }
+.course-svg{
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+.details-container{
+        margin-top: 70px;
+    }
+
+.carousel-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 360px;
+    }
+
+    .carousel h3{
+        font-size: 24px;
+        color: #F4F4F4;
+        margin-left: 24px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+      }
+
+      .question-container h2{
+        font-size: 18px;
+    }
+    .headers h3{
+        font-size: 16px;
+    }
+    .svg-cont svg{
+        width: 42px;
+        height: 42px;
+    }
+    .body-text{
+        font-size: 14px;
+    }
+    .all-questions{
+        display: none;
+    }
+    .all-questions-resp{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 24px;
+        padding-top: 80px;
+    }
+    .all-quest{
+        font-size: 16px;
+        text-align: center;
+        color: #00AEF3;
+    }
+    .all-questions-resp h5{
+        font-size: 16px;
+        text-align: center;
+        color: #f4f4f4;
+    }
+    .headers{
+        justify-content: space-between;
+        padding-right: 24px;
+    }
+    .btn-social-parent{
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: flex-end;
+        position: absolute;
+        gap: 20px;
+        right:0;
+        margin-top: -90px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {}

@@ -77,9 +77,7 @@ const Carousel={
     carouselContainer:document.querySelector(".carousel-container"),
 
     renderCarousel:function(){
-        let title=document.createElement("h3");
-        title.innerHTML="პროექტის პარტნიორები";
-        this.carouselContainer.appendChild(title);
+ 
         let imgUrls=[
     ["https://static.wixstatic.com/media/93e8a3_a356bb7d201f4f47870683655e9e4120~mv2.png/v1/fill/w_492,h_148,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%204_2x_edited.png",
     "https://static.wixstatic.com/media/93e8a3_eaf33552ffd5463e96a5f776dda00111~mv2.png/v1/fill/w_482,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/White%20horiz.png",
@@ -116,9 +114,7 @@ setInterval(()=>{
     
         let images=document.querySelectorAll(".carousel-image");
         let slides=document.querySelectorAll(".carousel-segment")
-        slides.forEach((slide, indx) => {
-            slide.style.transform = `translateX(${indx * 100}%)`;
-        })
+    
         if(url==""){
             images[index].style.display = 'none';
         }else{
@@ -138,6 +134,4 @@ setInterval(()=>{
 Courses.renderCourses();
 Questions.renderQuestions();
 Carousel.renderCarousel();
-
-
 

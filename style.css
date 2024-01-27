@@ -65,7 +65,11 @@ a {
     height: 69px;
     padding-left: 20px;
     padding-right: 20px;
-
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s;
+    z-index: 899;
 }
 
 .nav-button{
@@ -160,6 +164,10 @@ a {
   animation-name: fade;
   animation-duration: 0.15s;
 }
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 
 @keyframes fade {
   from {right:-100% ;
@@ -204,6 +212,7 @@ a {
 .banner{
   display: inline-block;
   width: 100%;
+  padding-top: 69px;
 }
 .banner img{
   height: 217px;
@@ -402,7 +411,7 @@ gap: 15px;
 }
 
 .item.current-item .body {
-  max-height: 699px;
+  max-height: 899px;
 }
 .headers{
   display: flex;
@@ -425,18 +434,15 @@ gap: 15px;
   line-height: 2;
   padding-bottom: 24px;
 }
+.carousel{
+  background-color: #2B2B2B;
+}
 
 .carousel-container{
   background-color: #2B2B2B;
   height: 430px;
 }
-.carousel-container h3{
-  font-size: 18px;
-  color: #F4F4F4;
-  margin-left: 24px;
-  padding-top: 24px;
-  padding-bottom: 32px;
-}
+
 .carousel-image{
   width: 100%;
   height: 100%;
@@ -450,3 +456,14 @@ gap: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+.all-questions{
+  font-size: 16px;
+  text-align: center;
+  color: #00AEF3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.responsive-nav{
+  display: none;
+}
+
