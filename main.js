@@ -131,6 +131,10 @@ setInterval(()=>{
 }
 
 
+
+
+
+
 Courses.renderCourses();
 Questions.renderQuestions();
 Carousel.renderCarousel();

@@ -349,6 +349,7 @@ gap: 15px;
   border-radius: 6px;
   font-size: 14px;
   padding: 6px;
+  cursor: pointer;
 
 }
 .rights{
@@ -437,11 +438,14 @@ gap: 15px;
 .carousel{
   background-color: #2B2B2B;
 }
-
-.carousel-container{
-  background-color: #2B2B2B;
-  height: 430px;
+#project{
+  color: #F4F4F4;
+  font-size: 18px;
+  padding-top: 36px;
+  margin-left: 24px;
+  padding-bottom: 36px;
 }
+
 
 .carousel-image{
   width: 100%;
@@ -455,13 +459,32 @@ gap: 15px;
   margin-bottom: 52px;
   margin-left: auto;
   margin-right: auto;
+
 }
+
+.carousel-container {
+  background-color: #2B2B2B;
+  height: 430px;
+  overflow: hidden;
+}
+
+
+
 .all-questions{
   font-size: 16px;
   text-align: center;
   color: #00AEF3;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.all-questions-resp span{
+  display: none;
+}
+.all-questions-resp h5{
+font-size: 20px;
+color:#F4F4F4;
+padding-top: 52px;
+margin-left: 24px;
 }
 .responsive-nav{
   display: none;

@@ -47,6 +47,7 @@
     .carousel-segment{
         padding: 60px;
     }
+  
     .question-container h2{
         font-size: 38px;
     }
@@ -210,6 +211,70 @@
         margin-top: -90px;
     }
 
+
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+    .header{
+        justify-content: space-around;
+    }
+
+    .banner img{
+        content:url("https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1812,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg");
+    }
+    .banner h3{
+        padding-left: 10%;
+    }
+    .article{
+        padding: 5% 10% 5% 10%;
+    }
+    .courses-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .courses h6{
+        margin-left: 10%;
+        padding-bottom: 5%;
+    }
+    .question-container{
+        padding: 5% 10% 5% 10%;
+
+    }
+    .all-questions-resp h5{
+        padding-top: 0; 
+    }
+   
+      .footer-logo{
+        height: 100%;
+        width: 130px;
+        margin-left: 10%;
+      }
+      .rights{
+        margin-left: 10%;
+      }
+      .rights p{
+        margin-left: 0;
+        font-size: 14px;
+
+      }
+    
+      .btn-social-parent{
+        gap: 40px;
+      }
+      .social-logos a{
+        width:35px;
+        height: 35px;
+      }
+      .social-logos a img{
+        width: 35px;
+        height: 35px;
+      }
+      .btn{
+        width: 162px;
+        height: 39px;
+        font-size: 16px;
+        margin-left: -55px;
+      }
+  
+}
