@@ -94,7 +94,12 @@ const Carousel={
         "" ]]
 
         
-    let image, carouselSegment;
+    let image, carouselSegment, dotsParent, dots;
+    dotsParent=document.createElement("div");
+    dotsParent.className="dots-parent"
+
+    
+
     
     let currentSlide=1
     imgUrls[0].forEach((url)=>{
@@ -114,7 +119,7 @@ setInterval(()=>{
     
         let images=document.querySelectorAll(".carousel-image");
         let slides=document.querySelectorAll(".carousel-segment")
-    
+
         if(url==""){
             images[index].style.display = 'none';
         }else{
@@ -127,6 +132,28 @@ setInterval(()=>{
         currentSlide=0;
             }
 },5000) 
+for(let i=0;i<3;i++){
+    dots=document.createElement("div");
+    dots.className="dots";
+    dotsParent.appendChild(dots)
+    dots.addEventListener("click",()=>{
+        imgUrls[i].forEach((url,index)=>{
+    
+            let images=document.querySelectorAll(".carousel-image");
+    
+            if(url==""){
+                images[index].style.display = 'none';
+            }else{
+                images[index].setAttribute("src",url);
+                images[index].style.display = 'block';
+            }
+        })
+
+
+    })
+}
+this.carouselContainer.appendChild(dotsParent)
+
     }
 }
 
